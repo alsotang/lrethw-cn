@@ -17,5 +17,12 @@
     "*.css|jinja" : {  },
     "*.cfg|jinja" : {  },
     "*.txt" : {},
-    "*.sty" : {}
+    "*.sty" : {},
+
+
+    "styles.html|jinja": {},
+    "tabs.html|jinja": {},
+    "footer.html|jinja": {"inputs": ["ga.html", "comments.html", "course.html", "related.html"]},
+    "*.sed|jinja": {},
+    "$variables": { "PROJECT_NAME": "learn-regex-the-hard-way", "TITLE": "Learn Regex The Hard Way"}
 }
