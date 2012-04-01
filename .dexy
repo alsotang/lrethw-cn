@@ -18,6 +18,7 @@
     "*.cfg|jinja" : {  },
     "*.txt" : {},
     "*.sty" : {},
+    "*.js" : {},
 
 
     "styles.html|jinja": {},
